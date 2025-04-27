@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            /* this will make the width fixed */
+        }
+
+        body{
+            background-color: blanchedalmond;
+        }
+
+        .container{
+            background-color: khaki;
+            border: 3px solid peru;
+            padding: 20px;
+            margin: 40px;
+            border-radius: 15px;
+            width: 500px;            
+        }
+
+        #p2{
+            padding-left: 20px;
+            margin-top: 10px;
+            margin-bottom: 50px;
+        }
+
+        #p3{
+            /* padding or margin: top right bottom left; */
+            padding: 10px 20px 30px 40px;
+        }
+
+        #p4{
+            /* padding: top/bottom right/left; */
+            padding: 20px 100px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Heading</h2>
+        <p id="p1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam autem, ipsam fuga quasi quaerat quis, deserunt dicta architecto possimus sequi cumque ab assumenda obcaecati neque delectus iste modi? Ea, necessitatibus.
+        </p>
+    </div>
+
+    <div class="container">
+        <h2>Heading</h2>
+        <p id="p2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam autem, ipsam fuga quasi quaerat quis, deserunt dicta architecto possimus sequi cumque ab assumenda obcaecati neque delectus iste modi? Ea, necessitatibus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et, consequatur quam autem architecto, accusantium earum laudantium rem nulla, excepturi sequi sit unde a ipsa quaerat molestias temporibus labore blanditiis repellat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos incidunt, sapiente eveniet quasi distinctio harum nostrum obcaecati. Quae dicta, repellendus ea impedit quaerat atque, ipsum praesentium necessitatibus omnis beatae maiores?
+        </p>
+    </div>
+
+    <div class="container">
+        <h2>Heading</h2>
+        <p id="p3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam autem, ipsam fuga quasi quaerat quis, deserunt dicta architecto possimus sequi cumque ab assumenda obcaecati neque delectus iste modi? Ea, necessitatibus.
+        </p>
+    </div>
+
+    <div class="container">
+        <h2>Heading</h2>
+        <p id="p4">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam autem, ipsam fuga quasi quaerat quis, deserunt dicta architecto possimus sequi cumque ab assumenda obcaecati neque delectus iste modi? Ea, necessitatibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, aperiam? Laborum architecto, dicta vitae eius delectus dolores voluptatem aperiam alias!
+        </p>
+    </div>
+
+</body>
+</html>

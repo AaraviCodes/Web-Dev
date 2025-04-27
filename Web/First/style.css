@@ -1,0 +1,15 @@
+p{
+    background-color: deepskyblue;
+    color: whitesmoke;
+}
+
+.headings{
+    background-color: lightblue;
+    color: darkblue;
+    border: 1px solid black;
+    align-items: center;
+}
+
+#purple{
+    color: purple;
+}

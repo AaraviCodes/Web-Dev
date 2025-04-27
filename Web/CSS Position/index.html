@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .container{
+            border: 1px solid black;
+            height: 3000px;
+        }
+
+        .container1, .container2, .container3{
+            border: 2px solid red;
+        }
+
+        .box{
+            margin: 5px;
+            display: inline-block;
+            height: 100px;
+            width: 100px;
+            border: 2px solid red;
+        }
+
+        #b3{
+            position: relative;
+            top: 30px;
+            right: 30px;
+        }
+
+        #b23{
+            position: absolute;
+            top: 20px;
+            right: 100px;
+        }
+
+        #b33{
+            position: fixed;
+            right: 100px;
+        }
+
+        #b43{
+            position: sticky;
+            top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Positioning of the boxes</h2>
+
+    <div class="container">
+
+        
+            <h3>Relative</h3>
+            <div class="container1">
+                <div class="box" id="b1">
+                    1
+                </div>
+                <div class="box" id="b2">
+                    2
+                </div>
+                <div class="box" id="b3">
+                    relative 3
+                </div>
+                <div class="box" id="b4">
+                    4
+                </div>
+            </div>
+        
+            <h3>Absolute</h3>
+            <div class="container2">
+                <div class="box" id="b21">
+                    1
+                </div>
+                <div class="box" id="b22">
+                    2
+                </div>
+                <div class="box" id="b23">
+                    absolute 3
+                </div>
+                <div class="box" id="b24">
+                    4
+                </div>
+            </div>
+        
+            <h3>Fixed</h3>
+            <div class="container3">
+                <div class="box" id="b31">
+                    1
+                </div>
+                <div class="box" id="b32">
+                    2
+                </div>
+                <div class="box" id="b33">
+                   fixed 3
+                </div>
+                <div class="box" id="b34">
+                    4
+                </div>
+            </div>
+        
+            <h3>Sticky</h3>
+            <div class="container">
+                <div class="box" id="b41">
+                    1
+                </div>
+                <div class="box" id="b42">
+                    2
+                </div>
+                <div class="box" id="b43">
+                    sticky 3
+                </div>
+                <div class="box" id="b44">
+                    4
+                </div>
+            </div>
+
+    </div>
+
+</body>
+</html>

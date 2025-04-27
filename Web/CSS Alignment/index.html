@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            background-color:blanchedalmond;
+        }
+
+        body{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .container{
+            background-color:rgb(255, 214, 152);
+            width: 70%;
+            border: 2px solid rgb(219, 138, 71);
+            padding: 5px;
+            margin: 30px auto;
+        }
+
+        .items{
+            background-color: blanchedalmond;
+            border: 3px solid rgb(219, 138, 71);
+            margin: 1%;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        #fruit{
+            float: left;
+            width: 47%;
+        }
+
+        #stationary{
+            float: right;
+            width: 47%;
+        }
+
+        #computer, #dairy, #grocerry{
+            clear: both;
+        }
+
+        p{
+            background-color: blanchedalmond;
+        }
+
+        h3{
+            background-color: blanchedalmond;
+            color: rgb(219, 138, 71);
+        }
+
+        h1{
+            background-color: rgb(255, 214, 152);
+            color: rgb(219, 138, 71);
+            margin: auto;
+            width: 50%;
+            padding: 2%;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <h1>
+            Welcome to my store!
+        </h1>
+
+        <div id="fruit" class="items">
+            <h3>Fruit</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit eum, quisquam et in asperiores nam consectetur explicabo ipsa excepturi
+            </p>
+        </div>
+        
+        <div id="stationary" class="items">
+            <h3>Stationary</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit eum, quisquam et in asperiores nam consectetur explicabo ipsa excepturi
+            </p>
+        </div>
+
+        <div id="computer" class="items">
+            <h3>Computer</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit eum, quisquam et in asperiores nam consectetur explicabo ipsa excepturi quod aut autem similique veniam eius error dicta delectus dignissimos quam!
+            </p>
+        </div>
+
+        <div id="dairy" class="items">
+            <h3>Dairy</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit eum, quisquam et in asperiores nam consectetur explicabo ipsa excepturi quod aut autem similique veniam eius error dicta delectus dignissimos quam!
+            </p>
+        </div>
+
+        <div id="grocerry" class="items">
+            <h3>Grocerry</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit eum, quisquam et in asperiores nam consectetur explicabo ipsa excepturi quod aut autem similique veniam eius error dicta delectus dignissimos quam!
+            </p>
+        </div>
+
+    </div>
+
+</body>
+</html>
